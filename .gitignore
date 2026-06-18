@@ -1,0 +1,9 @@
+# 阻擋你真正的環境變數檔案
+.env
+token.json
+# 如果下載了 Google Cloud 的憑證 JSON 檔，也一起擋掉
+*.json
+
+# 阻擋 Python 的編譯暫存快取
+__pycache__/
+.pytest_cache/
